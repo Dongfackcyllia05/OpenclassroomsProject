@@ -1,0 +1,119 @@
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 ~
+$ git -version
+unknown option: -version
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 ~
+$ git –version
+git: '–version' is not a git command. See 'git --help'.
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 ~
+$ git --version
+git version 2.40.0.windows.1
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 ~
+$ cd F:\
+> cd GIT-APPRENTISSAGE
+bash: cd: too many arguments
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 ~
+$ cd F:\GIT-APPRENTISSAGE
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE
+$ cd premier_projet_git
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git
+$ git config --global user.name "DONGFACK Cyllia"
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git
+$ git config --global user.email cylliadongfackpro@gmail.com
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+core.editor="C:\\Program Files\\Notepad++\\notepad++.exe" -multiInst -notabbar -nosession -noPlugin
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=DONGFACK Cyllia
+user.email=cylliadongfackpro@gmail.com
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git
+$ git config --global color.diff
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git
+$  git config --global color.status auto
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git
+$ git config --global color.branch auto
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git
+$ git config --global core.editor notepad++
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git
+$ git config --global merge.tool vimdiff
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git
+$ git init
+Initialized empty Git repository in F:/GIT-APPRENTISSAGE/premier_projet_git/.git/
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git (master)
+$ git add index.html styles.css
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git (master)
+$ git commit -m “Ajout des fichiers html et css de base”
+error: pathspec 'des' did not match any file(s) known to git
+error: pathspec 'fichiers' did not match any file(s) known to git
+error: pathspec 'html' did not match any file(s) known to git
+error: pathspec 'et' did not match any file(s) known to git
+error: pathspec 'css' did not match any file(s) known to git
+error: pathspec 'de' did not match any file(s) known to git
+error: pathspec 'base”' did not match any file(s) known to git
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git (master)
+$ git add index.html styles.css
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git (master)
+$ git commit
+hint: Waiting for your editor to close the file... error: cannot spawn notepad++: No such file or directory
+error: unable to start editor 'notepad++'
+Please supply the message using either -m or -F option.
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git (master)
+$ git commit -m “Ajout des fichiers html et css de base”
+error: pathspec 'des' did not match any file(s) known to git
+error: pathspec 'fichiers' did not match any file(s) known to git
+error: pathspec 'html' did not match any file(s) known to git
+error: pathspec 'et' did not match any file(s) known to git
+error: pathspec 'css' did not match any file(s) known to git
+error: pathspec 'de' did not match any file(s) known to git
+error: pathspec 'base”' did not match any file(s) known to git
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git (master)
+$ git commit
+hint: Waiting for your editor to close the file... error: cannot spawn notepad++: No such file or directory
+error: unable to start editor 'notepad++'
+Please supply the message using either -m or -F option.
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git (master)
+$ code --versiongit
+bash: code: command not found
+
+DONGFACK CYLLIA@DESKTOP-MBMSNE5 MINGW64 /f/GIT-APPRENTISSAGE/premier_projet_git (master)
+$ code --version
+bash: code: command not found
+
